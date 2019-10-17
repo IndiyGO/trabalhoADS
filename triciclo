@@ -1,0 +1,15 @@
+package automovel;
+import interface.ImportavelInterface;
+public class Triciclo extends Automovel implements ImportavelInterface{
+
+    
+    @Override
+    public boolean isImportado() {        
+        return false;
+    }
+   
+    @Override
+    public void exibir(){
+        super.exibir();
+    } 
+}
